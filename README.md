@@ -21,11 +21,7 @@ Financial markets exhibit inherent volatility, with stock prices influenced by v
 
 ### Data Preprocessing:
 - **Log-Returns**:
-  Log-returns (\(Y_t\)) were calculated as:
-  \[
-  Y_t = \log\left(\frac{P_t}{P_{t-1}}\right)
-  \]
-  where \(P_t\) is the closing price at time \(t\).
+  Log-returns $Y_t$ were calculated as: $Y_t = \log\left(\frac{P_t}{P_{t-1}}\right)$, where $P_t$ is the closing price at time t.
 - **Distribution Selection**:
   Based on skewness, kurtosis, and QQ-plots, the skewed t-Student distribution was chosen for standardized residuals.
 
