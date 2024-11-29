@@ -57,9 +57,6 @@ The following models were applied to capture time-varying volatility and asymmet
 - **ARCH-LM Test**:
   - Residuals exhibited no remaining ARCH effect.
 
-### Volatility Clustering:
-- All models successfully captured volatility clustering, a key characteristic of financial time series.
-
 ---
 
 ## Technologies
@@ -69,14 +66,6 @@ The following models were applied to capture time-varying volatility and asymmet
   - `rugarch` (GARCH modelling)
   - `tseries` (Diagnostics)
   - `ggplot2` (Visualization)
-
----
-
-## Key Insights
-
-1. **Volatility Dynamics**: GARCH-type models provide robust tools for analyzing time-varying volatility in financial markets.
-2. **Model Selection**: AIC and SIC consistently identified the best-fit models, demonstrating their effectiveness in volatility analysis.
-3. **Practical Applications**: These models are critical for stock price prediction, risk management, and portfolio optimization.
 
 ---
 
