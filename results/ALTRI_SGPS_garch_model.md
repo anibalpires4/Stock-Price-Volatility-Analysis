@@ -14,7 +14,9 @@
 - **GJR-GARCH(1,1)** was selected based on AIC and SIC values.
 
 #### Model Equation:
-$\sigma_t^2 = 0.01(X_{t-1}^2 - 0.03I_{t-1} X_{t-1}^2) + 1.00\sigma_{t-1}^2$
+$$
+\sigma_t^2 = 0.01(X_{t-1}^2 - 0.03I_{t-1} X_{t-1}^2) + 1.00\sigma_{t-1}^2
+$$
 
 - Parameters:
   - $\mu \approx 0.00$ (not significant)
