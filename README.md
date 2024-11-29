@@ -1,12 +1,12 @@
 # Stock Price Volatility Analysis Using GARCH Models
 
-This repository presents an in-depth analysis of daily stock prices for five prominent Portuguese companies listed on Euronext Lisbon. Leveraging GARCH-type models, this study explores the volatility dynamics of stock log-returns, offering insights into financial forecasting and risk management.
+This repository analyses daily stock prices for five prominent Portuguese companies listed on Euronext Lisbon. Leveraging GARCH-type models, this study explores the volatility dynamics of stock log-returns, offering insights into financial forecasting and risk management.
 
 ---
 
 ## Overview
 
-Financial markets exhibit inherent volatility, with stock prices influenced by various factors. This project focuses on understanding and modeling the time-varying nature of volatility and its asymmetric effects using GARCH-type models. The analysis involves:
+Financial markets exhibit inherent volatility, with stock prices influenced by various factors. This project focuses on understanding and modelling the time-varying nature of volatility and its asymmetric effects using GARCH-type models. The analysis involves:
 
 - **Companies Analyzed**: Altri-SGPS, Mota Engil, REN, Sonae, The Navigator Company
 - **Data Period**: January 5, 2022, to October 12, 2022
@@ -21,7 +21,7 @@ Financial markets exhibit inherent volatility, with stock prices influenced by v
 
 ### Data Preprocessing:
 - **Log-Returns**:
-  Log-returns $Y_t$ were calculated as: $Y_t = \log\left(\frac{P_t}{P_{t-1}}\right)$, where $P_t$ is the closing price at time t.
+  Log-returns $Y_t$ were calculated as: $Y_t = \log\left(\frac{P_t}{P_{t-1}}\right)$, where $P_t$ is the closing price at time $t$.
 - **Distribution Selection**:
   Based on skewness, kurtosis, and QQ-plots, the skewed t-Student distribution was chosen for standardized residuals.
 
